@@ -75,7 +75,7 @@ def mainB(seedlist, mappings):
     
     locs = [find_location(seed,mappingsB) for seed in seedlistFlat]
     print(locs)
-    #Speed issues: Options: Ignore/cache calculations OR Pointers OR Parallelize?
+    #TODO: Speed issues: Options: Ignore/cache calculations OR Pointers OR Parallelize?
     #locations = [mainA(sl, mappings) for sl in seedlist]
     #print(f'Answer B: Overall minimum location: {min(locations)}')
 
